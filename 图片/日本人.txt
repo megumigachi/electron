@@ -1,0 +1,28 @@
+
+
+        window.onload = function () {
+
+
+
+ 
+
+
+
+	
+
+               var p = document.getElementsByTagName("html")[0];
+
+               var str = p.innerHTML;
+
+                var finder = "孙笑川";  //要查找的文字
+
+                var replace = "杜吉韦";  //要替换的文字
+
+                var res = str.split(finder).join("<span>"+replace+"</span>");
+
+                p.innerHTML = res;
+
+           
+
+        }
+
